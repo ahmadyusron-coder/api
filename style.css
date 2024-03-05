@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 10000px;
+    background-color: #121212;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem 5%;
+    justify-content: space-between;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+}
+
+.hero{
+    background-image: url(hero2.jpg);
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-position: bottom;
+}
+
+.hero .heroText{
+    color:#fff ;
+    max-width: 800px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero .heroText h4{
+    font-size: 40px;
+}
+
+.hero .heroText h1{
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.hero .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about{
+    background-color: #121212;
+    padding: 2rem 5%;
+    align-items: center;
+    display: flex;
+}
+
+.about img{
+    width: 700px;
+}
+
+.about .aboutText{
+    color: #fff;
+}
+
+.about .aboutText h3{
+    font-size: 30px;
+}
+
+.about .aboutText h4{
+    color: #c1d934;
+    margin: 10px 0;
+}
+
+.about .aboutText button{
+    background-color: #c1d934;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.feature{
+    background-image: url(banner.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature  .card{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.feature .card .images{
+    margin-right: 20px;
+}
+
+.feature .card p{
+    font-size: 25px;
+}
+
+.lessons{
+    padding: 2rem 5%;
+}
+
+.lessons .title{
+    color: #c1d934;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.lessons .title h3{
+    font-size: 30px;
+}
+
+.lessonsContent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.lessonsContent .card{
+    width: 320px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.lessonsContent .card:hover{
+    border: none;
+    transition: .8s;
+}
+
+.lessons .card img{
+    width: 100%;
+}
+
+.lessons .cardText{
+    padding-top: 30px;
+}
+
+.lessons .cardText p{
+    margin: 10px 0;
+}
+
+.lessons .cardText a{
+    text-decoration: none;
+    color: #c1d934;
+}
+
+/* Benefits */
+.benefits{
+    background-image: url(banner1.jpg);
+    color: #fff;
+    padding: 4rem 5%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.benefits .benefitsContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefits .title h3{
+    font-size: 50px;
+}
+
+.benefits .card{
+    width: 500px;
+    margin-top: 50px;
+}
+
+.benefits .card h3{
+    font-size: 40px;
+}
+
+.benefits .card p{
+    font-size: 25px;
+}
+
+.projects{
+    padding: 3rem 5%;
+}
+
+.projects .title{
+    text-align: center;
+}
+
+.projects .title h3{
+    font-size: 35px;
+    color: #c1d934;
+}
+
+.projects .projectContent{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.projectContent .card{
+    width: 280px;
+    cursor: pointer;
+    position: relative;
+}
+
+.projectContent .card img{
+    width: 100%;
+}
+
+.coach{
+    color: #fff;
+    padding: 2rem 5%;
+}
+
+.coach .title{
+    text-align: center;
+}
+
+.coach .title h3{
+    color: #c1d934;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.coach .coachContent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coach .coachContent .card{
+    width: 300px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.coach .coachContent img{
+    width: 100%;
+}
+
+.coach .coachContent .cardText{
+    padding: 15px 0;
+}
+
+.coach .coachContent h3{
+    margin-bottom: 10px;
+}
+
+.coach .coachContent p{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.coach .coachContent ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.blog{
+    padding: 2rem 5%;
+    color: #fff;
+}
+
+.blog .title{
+    text-align: center;
+}
+
+.blog .title h3{
+    color: #c1d934;
+    font-size: 30px;
+}
+
+.blog .blogContent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog .blogContent .card{
+    width: 300px;
+    cursor: pointer;
+}
+
+.blog .blogContent .card img{
+    width: 100%;
+}
+
+.blog .blogContent .cardText{
+    margin-top: 20px;
+}
+
+
+.reward{
+    padding: 2rem 5%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+footer{
+    color:#fff;
+    padding: 3rem 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(bgfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+footer .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer .footer-1{
+    width: 300px;
+    position: relative;
+    z-index: 10;
+}
+
+footer .footer-1 ul{
+    list-style: none;
+}
+
+footer .footer-1 ul li{
+    margin-top: 20px;
+}
+
+footer i{
+    margin-right: 10px;
+}
